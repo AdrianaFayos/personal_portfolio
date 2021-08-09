@@ -1,15 +1,17 @@
-import { Profiler } from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Home from './Containers/Home/Home';
 import AboutMe from './Containers/AboutMe/AboutMe';
 import Contact from './Containers/Contact/Contact';
 import Projects from './Containers/Projects/Projects';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+
+      <Header/>
 
         <Switch>
         
